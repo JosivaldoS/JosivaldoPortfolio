@@ -1,4 +1,6 @@
 import PreviaBroly from '../../../assets/Broly.png'
+import PreviaLogin from '../../../assets/Login.png'
+import PreviaBigPiggs from '../../../assets/BigPiggs.png'
 
 export default function SecondSection() {
     // Projetos
@@ -16,28 +18,29 @@ export default function SecondSection() {
                     />
                     <div class='w-full bg-RoxaEscura text-center'>
                         <h2 class='text-xl'>Filme do Broly</h2>
-                        <p>Projeto anunciando o filme do Broly, utilizando tecnologias como HTML5 e CSS3</p>
+                        <p>Este projeto em HTML, CSS e AOS apresenta o filme Broly com animações dinâmicas e um design responsivo. 🎬💻 Foi uma ótima experiência para aprimorar estilização, organização de código e interatividade. 🚀</p>
                     </div>
                 </div>
                 <div class='w-[450px] h-[570px]'>
                     <img 
-                        src="https://placehold.co/450x350" 
+                        src={PreviaLogin} 
                         alt="Minha foto"
                     />
                     <div class='w-full bg-RoxaEscura text-center'>
-                        <h2 class='text-xl'>Filme do Broly</h2>
-                        <p>Site que tem o intuito de anunciar o filme do Broly</p>
+                        <h2 class='text-xl'>Site de login</h2>
+                        <p>Desenvolvi este site em React para praticar meus aprendizados, incluindo um validador de senha forte, um comparador de senhas e outros recursos interativos. 🚀
+                        </p>
                     </div>
                     
                 </div>
                 <div class='w-[450px] h-[570px]'>   
                     <img 
-                        src="https://placehold.co/450x350" 
+                        src={PreviaBigPiggs} 
                         alt="Minha foto"
                     />
                     <div class='w-full bg-RoxaEscura text-center'>
                         <h2 class='text-xl'>BigPiggs</h2>
-                        <p>Projeto que fiz que tem a função de criar orçamentos de projetos e controlar os valores gastos</p>
+                        <p>Desenvolvi este projeto em React para criação de orçamentos e controle de gastos em projetos, facilitando a gestão financeira com uma interface intuitiva e eficiente. 💰📊</p>
                     </div>
                 </div>
             </div>

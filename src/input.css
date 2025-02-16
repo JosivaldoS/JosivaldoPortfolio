@@ -16,3 +16,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Adam-CG";
+  src: url("./fonts/ADAM.CG\ PRO.otf");
+  font-style: normal;
+}

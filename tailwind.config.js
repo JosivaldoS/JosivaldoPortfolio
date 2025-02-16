@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,jsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        AdamCg: ['Adam-CG', 'sans-serif']
+      },
       colors: {
         'CorPreta': '#0D0D0D',
         'RoxaEscura': '#4A2B8C',

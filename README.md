@@ -35,7 +35,8 @@ Criei esta página para reunir minhas informações profissionais de forma organ
 
 ## 📷 Visual da página
 
-![image](https://github.com/user-attachments/assets/ab6e2a21-6aa8-4ceb-b938-4f3931f5f744)
+
+![localhost_3000_](https://github.com/user-attachments/assets/fc0f4178-453b-45d2-876f-57aa41303c3a)
 
 
 ## 📦 Como rodar o projeto

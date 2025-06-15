@@ -31,7 +31,6 @@ Criei esta página para reunir minhas informações profissionais de forma organ
 
 - Adicionar um sistema de blog para compartilhar aprendizados.
 - Melhorar a acessibilidade e SEO da página.
-- Implementar um modo escuro para melhorar a experiência do usuário.
 
 ## 📷 Visual da página
 

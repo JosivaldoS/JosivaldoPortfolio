@@ -7,7 +7,7 @@ import ThirdSection from "./components/Layout/ThirdSection/ThirdSection";
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <FirstSection />
       <SecondSection />
       <ThirdSection />

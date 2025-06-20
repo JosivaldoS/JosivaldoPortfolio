@@ -5,38 +5,36 @@ import PreviaBigPiggs from '../../../assets/BigPiggs.png'
 export default function SecondSection() {
     // Projetos
     return (
-        <main class='bg-RoxaMedio text-white w-screen h-[800px] overflow-hidden'>
-            <h1 class='text-center text-7xl mt-9 font-sans'>
+        <main class='bg-RoxaMedio text-white w-screen h-full '>
+            <h1 class='text-center text-7xl pd-10 font-sans'>
                 Meus projetos
             </h1>
-            <div class='flex flex-row justify-evenly items-center mt-16'>
-                <div class='w-[450px] h-[570px]'>
+            <div class='flex flex-col justify-evenly items-center mt-16 md:flex-row'>
+                <div class='p-5'>
                     <img 
                         src = {PreviaBroly}
-                        alt="Minha foto"
-                        class='w-[450px] h-[550]'
+                        alt="Prévia do meu projeto anunciando o filme do Broly"
                     />
                     <div class='w-full bg-RoxaEscura text-center'>
                         <h2 class='text-xl'>Filme do Broly</h2>
                         <p>Este projeto em HTML, CSS e AOS apresenta o filme Broly com animações dinâmicas e um design responsivo. 🎬💻 Foi uma ótima experiência para aprimorar estilização, organização de código e interatividade. 🚀</p>
                     </div>
                 </div>
-                <div class='w-[450px] h-[570px]'>
+                <div class='p-5'>
                     <img 
                         src={PreviaLogin} 
-                        alt="Minha foto"
+                        alt="Prévia do meu projeto de um site de login"
                     />
                     <div class='w-full bg-RoxaEscura text-center'>
                         <h2 class='text-xl'>Site de login</h2>
                         <p>Desenvolvi este site em React para praticar meus aprendizados, incluindo um validador de senha forte, um comparador de senhas e outros recursos interativos. 🚀
                         </p>
                     </div>
-                    
                 </div>
-                <div class='w-[450px] h-[570px]'>   
+                <div class='p-5'>   
                     <img 
                         src={PreviaBigPiggs} 
-                        alt="Minha foto"
+                        alt="Prévia do Meu projeto BigPiggs"
                     />
                     <div class='w-full bg-RoxaEscura text-center'>
                         <h2 class='text-xl'>BigPiggs</h2>
@@ -44,7 +42,7 @@ export default function SecondSection() {
                     </div>
                 </div>
             </div>
-            <div class='flex items-start justify-center'>
+            <div class='flex items-start justify-center pt-5'>
                 <div class="group relative">
                     <a href='https://github.com/JosivaldoS' target='_blank' rel="noreferrer">
                         <button>
